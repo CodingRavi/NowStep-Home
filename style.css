@@ -139,6 +139,7 @@ nav {
   transform: translate(0%, 50%);
   display: flex;
   justify-content: space-between;
+  display: none;
 }
 .circle {
   width: 15px;
@@ -209,7 +210,7 @@ nav {
   align-items: center;
 }
 .card {
-  width: 250px;
+  width: 220px;
   min-height: 300px;
   background-color: rgb(21, 81, 135);
   padding: 20px;
@@ -298,7 +299,7 @@ nav {
   margin-right: 20px;
 }
 .review_circle > img {
-  width: 60px;
+  width: 90px;
 }
 .review_title {
   display: flex;
@@ -314,6 +315,7 @@ nav {
   /* min-height: 90vh; */
   display: flex;
   padding: 20px 40px;
+  background-color: rgb(227, 226, 226);
 }
 .querie_left {
   width: 50%;
@@ -352,65 +354,61 @@ nav {
   background-color: white;
   border-radius: 5px;
   padding-left: 10px;
-    font-size: 15px;
+  font-size: 15px;
 }
-.form_box_querie > form button{
-    width: 80%;
-    height: 40px;
-    margin-bottom: 20px;
-    outline: none;
-    font-size: 15px;
-    background-color: rgb(255, 162, 0);
-    border: none;
+.form_box_querie > form button {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 15px;
+  background-color: rgb(255, 162, 0);
+  border: none;
   border-radius: 5px;
-
-
 }
-.form_box_querie > form button:hover{
-    box-shadow: -1px 0px 4px 0px rgba(90, 90, 90, 0.362);
-    background-color: white;
-    color:rgb(255, 162, 0) ;
-    border: 1px solid rgb(255, 162, 0);
+.form_box_querie > form button:hover {
+  box-shadow: -1px 0px 4px 0px rgba(90, 90, 90, 0.362);
+  background-color: white;
+  color: rgb(255, 162, 0);
+  border: 1px solid rgb(255, 162, 0);
 }
-.fak_container{
-    width: 100%;
-    padding: 20px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.fak_container {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.fak_container h1{
-    font-size: 40px;
-    margin-bottom: 20px;
-    color: rgb(21, 81, 135);
+.fak_container h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgb(21, 81, 135);
 }
-.fak_question{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* border: 1px solid red; */
-    margin-bottom: 10px;
-    cursor: pointer;
+.fak_question {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+  margin-bottom: 10px;
+  cursor: pointer;
 }
-.head_fak{
-    width:100%;
-    background-color:  rgb(21, 81, 135);
-    color: white;
-    padding: 10px;
-    font-size: 25px;
+.head_fak {
+  width: 100%;
+  background-color: rgb(21, 81, 135);
+  color: white;
+  padding: 10px;
+  font-size: 25px;
 }
-.des_fak{
-    font-size: 20px;
-    padding: 10px;
-    display: none;
-    /* display: inline; */
+.des_fak {
+  font-size: 20px;
+  padding: 10px;
+  display: none;
+  /* display: inline; */
 }
 footer {
   width: 100%;
-  /* min-height: 50vh; */
-  /* background-color:rgb(21, 81, 135) ; */
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(3, 25, 44);
   color: white;
   display: flex;
   flex-direction: column;
@@ -564,9 +562,9 @@ footer {
     width: 200px;
     position: relative;
   }
-  .queries_container{
-      padding: 10px;
-      flex-direction: column;
+  .queries_container {
+    padding: 10px;
+    flex-direction: column;
   }
   .querie_left {
     width: 100%;
@@ -574,5 +572,5 @@ footer {
   }
   .querie_right {
     width: 100%;
-}
+  }
 }

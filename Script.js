@@ -13,7 +13,6 @@ menu_btn.addEventListener("click", function(){
         ani=false
     }
 })
-
 // FAK
 const fak_head=document.querySelector(".head_fak")
 const fak_des=document.querySelector(".des_fak")
