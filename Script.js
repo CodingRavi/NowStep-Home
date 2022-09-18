@@ -14,7 +14,13 @@ menu_btn.addEventListener("click", function(){
     }
 })
 
-
+// FAK
+const fak_head=document.querySelector(".head_fak")
+const fak_des=document.querySelector(".des_fak")
+fak_head.addEventListener("click",()=>{
+    console.log(fak_head,fak_des);
+    fak_des.style.display="inline"
+})
 
 // GSAP Animetion
 var t1=gsap.timeline();
