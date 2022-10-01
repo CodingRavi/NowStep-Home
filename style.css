@@ -8,6 +8,7 @@ html,
 body {
   width: 100%;
   /* height: 100%; */
+  scroll-behavior: smooth;
 }
 .container {
   width: 100%;
@@ -69,6 +70,7 @@ nav {
   color: rgb(255, 255, 255);
   font-size: 20px;
   /* font-weight: 600; */
+  /* transition: .5s; */
 }
 .nav_bottem a:hover {
   /* color: rgb(225, 225, 225); */
@@ -242,6 +244,40 @@ nav {
   /* object-fit:cover; */
   width: 70px;
 }
+.curriculum{
+  width: 100%;
+  /* min-height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 40px;margin-bottom: 20px;
+  background-color: rgb(21, 81, 135);
+}
+.curriculum h1{
+  font-size: 30px;
+  margin: 20px 0px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  /* text-transform: uppercase; */
+
+}
+.curriculum p{
+  color: rgb(218, 218, 218);
+}
+.curriculam_box{
+  width: 100%;
+  display: flex;
+
+}
+.curriculum_row{
+  width: 25vw;
+  /* height: 20px; */
+  color: white;
+  letter-spacing: 1px;
+  padding: 10px;
+  /* background-color: red; */
+}
 .review {
   width: 100%;
   /* min-height: 70vh; */
@@ -287,6 +323,7 @@ nav {
 #active {
   color: rgb(255, 179, 0);
 }
+
 .review_circle {
   width: 60px;
   height: 60px;
@@ -408,7 +445,10 @@ nav {
 }
 footer {
   width: 100%;
-  background-color: rgb(3, 25, 44);
+  background-image: url("./image/footer_box.png");
+  background-size: cover;
+  padding-top: 20vh;
+  /* background-color: rgb(3, 25, 44); */
   color: white;
   display: flex;
   flex-direction: column;
@@ -541,6 +581,10 @@ footer {
   }
   .card {
     margin: 20px;
+  }
+  .curriculam_box{
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer_top {
